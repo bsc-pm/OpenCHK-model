@@ -1,2 +1,2 @@
-# OpenCHK
+# OpenCHK model
 
