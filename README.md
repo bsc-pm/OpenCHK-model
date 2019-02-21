@@ -50,7 +50,7 @@ where clauses may be:
 
     if(bool-expr)
     
-The *if* clause is used as a switch off mechanism: the contruct will be ignored if its expression evaluates to false.
+The *if* clause is used as a switch off mechanism: the contruct will be ignored if the expression of the *if* clause evaluates to false.
     
 #### Restrictions
 - It must be used inside a checkpoint context.
@@ -69,7 +69,7 @@ where clauses may be:
     level(integer-expr)
     kind(kind-expr)
     
-The *if* clause is used as a switch off mechanism: the contruct will be ignored if its expression evaluates to false.
+The *if* clause is used as a switch off mechanism: the contruct will be ignored if the expression of the *if* clause evaluates to false.
 
 The *id* clause is used to give a name to the new checkpoint.
 
