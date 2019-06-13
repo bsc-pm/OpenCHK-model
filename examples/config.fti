@@ -1,0 +1,37 @@
+
+[basic]
+head                           = 0
+node_size                      = 2
+ckpt_dir                       = /p/home/jusers/maronas1/deep/openchk-examples/fti-local-dir
+glbl_dir                       = /p/home/jusers/maronas1/deep/openchk-examples/fti-global-dir
+meta_dir                       = /p/home/jusers/maronas1/deep/openchk-examples/.fti
+ckpt_l1                        = 1
+ckpt_l2                        = 1
+ckpt_l3                        = 1
+ckpt_l4                        = 1
+inline_l2                      = 1
+inline_l3                      = 1
+inline_l4                      = 1
+keep_last_ckpt                 = 0
+group_size                     = 4
+verbosity                      = 2
+
+
+[restart]
+failure                        = 0
+exec_id                        = 2019-06-13_16-01-31
+
+
+[injection]
+rank                           = 0
+number                         = 0
+position                       = 0
+frequency                      = 0
+
+
+[advanced]
+block_size                     = 1024
+mpi_tag                        = 2612
+local_test                     = 1
+
+
